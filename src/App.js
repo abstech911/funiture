@@ -1,9 +1,12 @@
-
+import Featured from "./components/featured/Featured";
 
 const App = () => {
   return (
     <div className="">
-      App
+      <Featured />
+      <div style={{ height: '200vh' }}>
+
+      </div>
     </div>
   );
 }
